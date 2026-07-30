@@ -192,6 +192,12 @@
     font-size: 12px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase;
     padding: 3px 9px; border-radius: 2px;
   }
+  .pay-btn {
+    display: inline-block; background: var(--accent); color: var(--paper);
+    text-decoration: none; font-weight: 800; font-size: 15px;
+    padding: 12px 26px; border-radius: 5px; letter-spacing: .01em;
+  }
+  .pay-note { font-size: 12px; color: var(--ink-soft); margin-top: 9px; }
   .pay-instructions {
     font-size: 13px; color: var(--ink); max-width: 130mm; margin: 0 auto; line-height: 1.45;
   }
@@ -241,7 +247,13 @@
     .pay-cap { font-size: 8.5px; margin-bottom: 2px; }
     .pay-price { font-size: 12.5px; margin-bottom: 2px; }
     .pay-save { font-size: 9px; padding: 1px 6px; margin-bottom: 3px; }
-    .pay-instructions { font-size: 9.5px; line-height: 1.2; }
+    .pay-btn {
+    display: inline-block; background: var(--accent); color: var(--paper);
+    text-decoration: none; font-weight: 800; font-size: 15px;
+    padding: 12px 26px; border-radius: 5px; letter-spacing: .01em;
+  }
+  .pay-note { font-size: 12px; color: var(--ink-soft); margin-top: 9px; }
+  .pay-instructions { font-size: 9.5px; line-height: 1.2; }
     .cta { margin-top: 8px; padding: 8px 12px; font-size: 12px; }
     .report-footer { margin-top: 8px; padding-top: 4px; font-size: 9.5px; }
   }
@@ -386,10 +398,11 @@
       <span class="pay-now">₹1,499</span>
     </p>
     <span class="pay-save">63% off — promotional period, early users only</span>
-    <p class="pay-instructions">Reply <strong>YES</strong> to this message and we&rsquo;ll send you a secure payment link. Your full report follows as soon as it clears.</p>
+    <p class="pay-instructions"><a class="pay-btn" href="https://checkout.dodopayments.com/buy/pdt_0NkI4XJ6H3QSHrNywnTRu?metadata_place_id=ChIJ0SjipDfP5zsRK0bZCXVyAn4&amp;showDiscounts=false&amp;metadata_region=parel-dadar">Unlock the full audit — ₹1,499</a></p>
+    <p class="pay-note">Secure checkout. Your full report is emailed to you as soon as the payment clears — usually within 5 minutes.</p>
   </div>
 
-  <div class="cta">Reply YES to unlock the full audit for your clinic.</div>
+  <div class="cta">Everything above, unlocked — one tap, and it lands in your inbox.</div>
 
   <footer class="report-footer">Prepared by Nevarro Technologies</footer>
 </section>
